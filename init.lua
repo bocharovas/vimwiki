@@ -47,3 +47,7 @@ vim.g.taskwiki_markdown = 1  -- Включение Markdown для задач
 vim.g.taskwiki_update_on_write = 1  -- Автоматическая синхронизация с Taskwarrior
 vim.g.taskwiki_split_cmd = 'botright vsplit'  -- Открывать список задач в вертикальном сплите
 vim.g.taskwiki_date_format = '%Y-%m-%d'  -- Формат даты
+
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.g.python3_host_prog = '/usr/bin/python3'
