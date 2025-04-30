@@ -4,9 +4,9 @@
 VIMWIKI_FILE="$HOME/vimwiki/index.md"
 
 # Найдем все строки с задачами в формате: - название due: reminder:
-grep -oP '^\- .+ due:\S+ reminder:\S+.*' "$VIMWIKI_FILE" | while read -r task; do
+sed -n '/due:[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}/ { s/([^)]*)//g; s/- \[//; s/\]//g; p }' "$VIMWIKI_FILE" | while read -r task; do
   # Извлекаем название задачи и параметры
-  task_name=$(echo "$task" | sed -r 's/^\- (.*) due:.*/\1/g' | sed 's/^\s+//g')
+  task_name=$(echo "$task" | awk '{print $1}')
   due=$(echo "$task" | grep -oP 'due:\S+')
   reminder=$(echo "$task" | grep -oP 'reminder:\S+')
   recurrence=$(echo "$task" | grep -oP 'recurrence:\S+')

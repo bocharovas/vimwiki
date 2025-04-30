@@ -31,7 +31,7 @@ vim.o.number = true   -- Включаем нумерацию строк
 vim.g.mapleader = ' '  -- Устанавливаем лидирующую клавишу как пробел
 
 vim.g.vimwiki_list = {{
-    path = vim.fn.expand('~/vimwiki/'),  -- Путь к вики
+    path = os.getenv("HOME") .. "/vimwiki/",
     syntax = 'markdown',                  -- Синтаксис Markdown
     ext = '.md',                          -- Расширение файлов
     template_path = vim.fn.expand('~/vimwiki/templates/'),  -- Путь к шаблонам
@@ -51,3 +51,4 @@ vim.g.taskwiki_date_format = '%Y-%m-%d'  -- Формат даты
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.g.python3_host_prog = '/usr/bin/python3'
+vim.g.vimwiki_global_ext = 0
