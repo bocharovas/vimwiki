@@ -6,6 +6,7 @@
 - [txtascii866.md](./repo/txtascii866.md) due:2025-04-29 reminder:1m recurrence:daily
 - [wiki.md](./repo/wiki.md) 
 - [script-dump.md](./repo/script-dump.md)
+- [thingworx-widgets.md](./repo/thingworx-widgets.md)
 
 ## tzm
 - [phs1m.md](./tzm/phs1m.md)
