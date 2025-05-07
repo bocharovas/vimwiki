@@ -8,6 +8,11 @@
 - [script-dump.md](./repo/script-dump.md)
 - [thingworx-widgets.md](./repo/thingworx-widgets.md)
 
+## sites
+
+- [bocharovas.md](./sites/bocharovas.md) 
+- [bezgazona](./sites/bezgazona.md) 
+
 ## tzm
 - [phs1m.md](./tzm/phs1m.md)
 
