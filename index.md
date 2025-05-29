@@ -14,7 +14,8 @@
 - [bezgazona](./sites/bezgazona.md) 
 
 ## tzm
-- [phs1m.md](./tzm/phs1m.md)
+- [phs1m](./tzm/phs1m.md)
+- [dir](./tzm/dir.md)
 
 ## GNU Privacy Guard
 - [[gpg/gpg.md]]
