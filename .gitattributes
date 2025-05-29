@@ -1,9 +1,0 @@
-* text=auto
-
-*.md text
-
-*.md eol=lf
-
-tiki/*/** filter=git-crypt diff=git-crypt
-
-
