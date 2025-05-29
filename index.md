@@ -7,10 +7,13 @@
 - [wiki.md](./repo/wiki.md) 
 - [script-dump.md](./repo/script-dump.md)
 - [thingworx-widgets.md](./repo/thingworx-widgets.md)
+<<<<<<< Updated upstream
 
 ## sites
 - [bocharovas.md](./sites/bocharovas.md) 
 - [bezgazona](./sites/bezgazona.md) 
+=======
+>>>>>>> Stashed changes
 
 ## tzm
 - [phs1m](./tzm/phs1m.md)
