@@ -4,6 +4,6 @@
 
 *.md eol=lf
 
-wiki/*/** filter=git-crypt diff=git-crypt
+tiki/*/** filter=git-crypt diff=git-crypt
 
 
