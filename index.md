@@ -17,7 +17,7 @@
 - [dir](./wiki/tzm/dir.md)
 
 ## GNU Privacy Guard
-- [gpg](./wiki/tzm/gpg.md)
+- [gpg](./wiki/gpg/gpg.md)
 
 ## meine
 - [micro.md](./wiki/meine/micro.md)
@@ -25,3 +25,5 @@
 
 ## diary
 - [2025-04-25.md](./wiki/diary/2025-04-25.md)
+- [2025-05-06.md](2025-05-06.md)
+

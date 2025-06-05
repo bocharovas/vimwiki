@@ -6,4 +6,3 @@
 
 wiki/*/** filter=git-crypt diff=git-crypt
 
-
