@@ -24,5 +24,5 @@
 - [tod.md](./wiki/meine/tod.md)
 
 ## diary
-- [2025-04-25.md](./diary/2025-04-25.md)
+- [2025-04-25.md](./wiki/diary/2025-04-25.md)
 
