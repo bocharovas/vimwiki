@@ -16,6 +16,7 @@
 - [phs1m](./wiki/tzm/phs1m.md)
 - [dir](./wiki/tzm/dir.md)
 - [op8-dgus](./wiki/tzm/op8-dgus.md)
+- [optimus-gk](./wiki/tzm/optimus-gk)
 
 ## GNU Privacy Guard
 - [gpg](./wiki/gpg/gpg.md)
